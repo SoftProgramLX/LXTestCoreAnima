@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C0FB8441CA517A900EC0BAE /* LXBubbleMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0FB8331CA517A900EC0BAE /* LXBubbleMenuButton.m */; };
+		5C0FB8451CA517A900EC0BAE /* LXCuteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0FB8351CA517A900EC0BAE /* LXCuteView.m */; };
+		5C0FB8461CA517A900EC0BAE /* LXFireworksButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0FB8381CA517A900EC0BAE /* LXFireworksButton.m */; };
+		5C0FB8471CA517A900EC0BAE /* LXFireworksView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0FB83A1CA517A900EC0BAE /* LXFireworksView.m */; };
+		5C0FB8481CA517A900EC0BAE /* LXPathButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0FB83D1CA517A900EC0BAE /* LXPathButton.m */; };
+		5C0FB8491CA517A900EC0BAE /* LXPathCenterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0FB83F1CA517A900EC0BAE /* LXPathCenterButton.m */; };
+		5C0FB84A1CA517A900EC0BAE /* LXPathItemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0FB8411CA517A900EC0BAE /* LXPathItemButton.m */; };
+		5C0FB84B1CA517A900EC0BAE /* LXRemindMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0FB8431CA517A900EC0BAE /* LXRemindMethod.m */; };
+		5C2FD9401CA4E1750099CFB5 /* LXBestAnimaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2FD93F1CA4E1750099CFB5 /* LXBestAnimaViewController.m */; };
 		BDC4884D1CA28F2800EC7F7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC4884C1CA28F2800EC7F7C /* main.m */; };
 		BDC488501CA28F2800EC7F7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC4884F1CA28F2800EC7F7C /* AppDelegate.m */; };
 		BDC488531CA28F2800EC7F7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC488521CA28F2800EC7F7C /* ViewController.m */; };
@@ -35,6 +44,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C0FB8321CA517A900EC0BAE /* LXBubbleMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXBubbleMenuButton.h; sourceTree = "<group>"; };
+		5C0FB8331CA517A900EC0BAE /* LXBubbleMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXBubbleMenuButton.m; sourceTree = "<group>"; };
+		5C0FB8341CA517A900EC0BAE /* LXCuteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXCuteView.h; sourceTree = "<group>"; };
+		5C0FB8351CA517A900EC0BAE /* LXCuteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXCuteView.m; sourceTree = "<group>"; };
+		5C0FB8371CA517A900EC0BAE /* LXFireworksButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXFireworksButton.h; sourceTree = "<group>"; };
+		5C0FB8381CA517A900EC0BAE /* LXFireworksButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXFireworksButton.m; sourceTree = "<group>"; };
+		5C0FB8391CA517A900EC0BAE /* LXFireworksView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXFireworksView.h; sourceTree = "<group>"; };
+		5C0FB83A1CA517A900EC0BAE /* LXFireworksView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXFireworksView.m; sourceTree = "<group>"; };
+		5C0FB83C1CA517A900EC0BAE /* LXPathButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXPathButton.h; sourceTree = "<group>"; };
+		5C0FB83D1CA517A900EC0BAE /* LXPathButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXPathButton.m; sourceTree = "<group>"; };
+		5C0FB83E1CA517A900EC0BAE /* LXPathCenterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXPathCenterButton.h; sourceTree = "<group>"; };
+		5C0FB83F1CA517A900EC0BAE /* LXPathCenterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXPathCenterButton.m; sourceTree = "<group>"; };
+		5C0FB8401CA517A900EC0BAE /* LXPathItemButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXPathItemButton.h; sourceTree = "<group>"; };
+		5C0FB8411CA517A900EC0BAE /* LXPathItemButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXPathItemButton.m; sourceTree = "<group>"; };
+		5C0FB8421CA517A900EC0BAE /* LXRemindMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXRemindMethod.h; sourceTree = "<group>"; };
+		5C0FB8431CA517A900EC0BAE /* LXRemindMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXRemindMethod.m; sourceTree = "<group>"; };
+		5C2FD93E1CA4E1750099CFB5 /* LXBestAnimaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXBestAnimaViewController.h; sourceTree = "<group>"; };
+		5C2FD93F1CA4E1750099CFB5 /* LXBestAnimaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXBestAnimaViewController.m; sourceTree = "<group>"; };
+		5C2FD9441CA4E4E00099CFB5 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		BDC488481CA28F2800EC7F7C /* TestCoreAnima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCoreAnima.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDC4884C1CA28F2800EC7F7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BDC4884E1CA28F2800EC7F7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +106,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C0FB8301CA517A900EC0BAE /* Export */ = {
+			isa = PBXGroup;
+			children = (
+				5C0FB8311CA517A900EC0BAE /* LXBubbleMenuButton */,
+				5C0FB8341CA517A900EC0BAE /* LXCuteView.h */,
+				5C0FB8351CA517A900EC0BAE /* LXCuteView.m */,
+				5C0FB8361CA517A900EC0BAE /* LXFireworksButton */,
+				5C0FB83B1CA517A900EC0BAE /* LXPathButton */,
+				5C0FB8421CA517A900EC0BAE /* LXRemindMethod.h */,
+				5C0FB8431CA517A900EC0BAE /* LXRemindMethod.m */,
+			);
+			path = Export;
+			sourceTree = "<group>";
+		};
+		5C0FB8311CA517A900EC0BAE /* LXBubbleMenuButton */ = {
+			isa = PBXGroup;
+			children = (
+				5C0FB8321CA517A900EC0BAE /* LXBubbleMenuButton.h */,
+				5C0FB8331CA517A900EC0BAE /* LXBubbleMenuButton.m */,
+			);
+			path = LXBubbleMenuButton;
+			sourceTree = "<group>";
+		};
+		5C0FB8361CA517A900EC0BAE /* LXFireworksButton */ = {
+			isa = PBXGroup;
+			children = (
+				5C0FB8371CA517A900EC0BAE /* LXFireworksButton.h */,
+				5C0FB8381CA517A900EC0BAE /* LXFireworksButton.m */,
+				5C0FB8391CA517A900EC0BAE /* LXFireworksView.h */,
+				5C0FB83A1CA517A900EC0BAE /* LXFireworksView.m */,
+			);
+			path = LXFireworksButton;
+			sourceTree = "<group>";
+		};
+		5C0FB83B1CA517A900EC0BAE /* LXPathButton */ = {
+			isa = PBXGroup;
+			children = (
+				5C0FB83C1CA517A900EC0BAE /* LXPathButton.h */,
+				5C0FB83D1CA517A900EC0BAE /* LXPathButton.m */,
+				5C0FB83E1CA517A900EC0BAE /* LXPathCenterButton.h */,
+				5C0FB83F1CA517A900EC0BAE /* LXPathCenterButton.m */,
+				5C0FB8401CA517A900EC0BAE /* LXPathItemButton.h */,
+				5C0FB8411CA517A900EC0BAE /* LXPathItemButton.m */,
+			);
+			path = LXPathButton;
+			sourceTree = "<group>";
+		};
 		BDC4883F1CA28F2800EC7F7C = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +176,13 @@
 		BDC4884A1CA28F2800EC7F7C /* TestCoreAnima */ = {
 			isa = PBXGroup;
 			children = (
+				5C0FB8301CA517A900EC0BAE /* Export */,
 				BDC4884E1CA28F2800EC7F7C /* AppDelegate.h */,
 				BDC4884F1CA28F2800EC7F7C /* AppDelegate.m */,
 				BDC488511CA28F2800EC7F7C /* ViewController.h */,
 				BDC488521CA28F2800EC7F7C /* ViewController.m */,
-				BDC488541CA28F2800EC7F7C /* Main.storyboard */,
-				BDC488571CA28F2800EC7F7C /* Assets.xcassets */,
-				BDC488591CA28F2800EC7F7C /* LaunchScreen.storyboard */,
-				BDC4885C1CA28F2800EC7F7C /* Info.plist */,
+				5C2FD93E1CA4E1750099CFB5 /* LXBestAnimaViewController.h */,
+				5C2FD93F1CA4E1750099CFB5 /* LXBestAnimaViewController.m */,
 				BDC4884B1CA28F2800EC7F7C /* Supporting Files */,
 			);
 			path = TestCoreAnima;
@@ -117,6 +191,11 @@
 		BDC4884B1CA28F2800EC7F7C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5C2FD9441CA4E4E00099CFB5 /* PrefixHeader.pch */,
+				BDC488571CA28F2800EC7F7C /* Assets.xcassets */,
+				BDC488541CA28F2800EC7F7C /* Main.storyboard */,
+				BDC488591CA28F2800EC7F7C /* LaunchScreen.storyboard */,
+				BDC4885C1CA28F2800EC7F7C /* Info.plist */,
 				BDC4884C1CA28F2800EC7F7C /* main.m */,
 			);
 			name = "Supporting Files";
@@ -271,8 +350,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDC488531CA28F2800EC7F7C /* ViewController.m in Sources */,
+				5C0FB8451CA517A900EC0BAE /* LXCuteView.m in Sources */,
+				5C0FB8441CA517A900EC0BAE /* LXBubbleMenuButton.m in Sources */,
+				5C0FB84B1CA517A900EC0BAE /* LXRemindMethod.m in Sources */,
+				5C0FB84A1CA517A900EC0BAE /* LXPathItemButton.m in Sources */,
 				BDC488501CA28F2800EC7F7C /* AppDelegate.m in Sources */,
+				5C0FB8481CA517A900EC0BAE /* LXPathButton.m in Sources */,
 				BDC4884D1CA28F2800EC7F7C /* main.m in Sources */,
+				5C0FB8461CA517A900EC0BAE /* LXFireworksButton.m in Sources */,
+				5C2FD9401CA4E1750099CFB5 /* LXBestAnimaViewController.m in Sources */,
+				5C0FB8471CA517A900EC0BAE /* LXFireworksView.m in Sources */,
+				5C0FB8491CA517A900EC0BAE /* LXPathCenterButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +501,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = TestCoreAnima/PrefixHeader.pch;
 				INFOPLIST_FILE = TestCoreAnima/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lx.TestCoreAnima;
@@ -424,6 +513,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = TestCoreAnima/PrefixHeader.pch;
 				INFOPLIST_FILE = TestCoreAnima/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lx.TestCoreAnima;
@@ -498,6 +588,7 @@
 				BDC488771CA28F2800EC7F7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BDC488781CA28F2800EC7F7C /* Build configuration list for PBXNativeTarget "TestCoreAnimaTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +597,7 @@
 				BDC4887A1CA28F2800EC7F7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BDC4887B1CA28F2800EC7F7C /* Build configuration list for PBXNativeTarget "TestCoreAnimaUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +606,7 @@
 				BDC4887D1CA28F2800EC7F7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
