@@ -28,12 +28,25 @@
 
 - (void)testCoreAnima
 {
+    //画音量调节的效果
     [self test1];
+    
+    //画一个圈的效果，模仿加载进度
     [self test2];
+    
+    //显示指定形状的图片或其它视图
     [self test3];
+    
+    //画UIBezierPath
     [self pathAnimation];
+    
+    //抖动效果
     [self shakeAnimation];
+    
+    //旋转动画
     [self rotateAnimation];
+    
+    //执行的组动画
     [self groupAnimation];
     
 #warning 点击或拖动右下角的按钮跳转
@@ -103,7 +116,7 @@
     [shapeLayer addAnimation:pathAnima forKey:@"strokeEndAnimation"];
 }
 
-#pragma - mark 显示指定形状的图片或其它视图
+#pragma - mark 显示指定形状的图片视图或其它视图
 - (void)test3
 {
     UIImageView *imgView = [[UIImageView alloc] initWithFrame:CGRectMake(20, 250, 100, 150)];
@@ -131,7 +144,6 @@
     CGPoint point5 = CGPointMake(viewWidth-rightSpace, topSpace+rightSpace);
     CGPoint point6 = CGPointMake(viewWidth-rightSpace, viewHeight);
     CGPoint point7 = CGPointMake(0, viewHeight);
-    
     
     UIBezierPath *path = [UIBezierPath bezierPath];
     [path moveToPoint:point1];
@@ -195,8 +207,9 @@
     [imgView.layer addAnimation:anima forKey:@"rotateAnimation"];
 }
 
-#pragma - mark 顺序执行的组动画
--(void)groupAnimation{
+#pragma - mark 执行的组动画
+- (void)groupAnimation
+{
     UIImageView *_demoView = [[UIImageView alloc] initWithFrame:CGRectMake((SCREEN_WIDTH-20)/2.0, SCREEN_HEIGHT, 20, 20)];
     _demoView.image = [UIImage imageNamed:@"huan"];
     [self.view addSubview:_demoView];

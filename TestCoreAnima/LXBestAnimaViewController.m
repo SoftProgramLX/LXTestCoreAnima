@@ -32,9 +32,12 @@
     [backBtn addTarget:self action:@selector(backBtnClicked:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:backBtn];
     
-    [self pathAnimation];
-    [self dingdingAnimation];
+    //仿造facebook，点赞动画
     [self clickGoodAnimation];
+    //仿Path 菜单动画
+    [self pathAnimation];
+    //仿造钉钉菜单动画
+    [self dingdingAnimation];
 }
 
 /**
