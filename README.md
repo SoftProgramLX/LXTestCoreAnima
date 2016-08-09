@@ -1,5 +1,5 @@
 
-#CoreAnimation的使用，由见简到难
+#CoreAnimation的使用，由简到难
 用CoreAnima框架写了一些常用和炫的动画
 
 源码请点击[github地址](https://github.com/SoftProgramLX/LXTestCoreAnima)下载。<br>
